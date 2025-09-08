@@ -1,0 +1,77 @@
+/* Set the background color for the whole page and apply a clean, modern font */
+body {
+    background-color: #e6e6fa; /* light purple (lavender) */
+    font-family: 'Segoe UI', 'Arial', sans-serif;
+}
+
+/* Style the profile card container */
+.card {
+    background: #fff; /* white background for contrast */
+    border: 2px solid #d1b3ff; /* soft purple border */
+    border-radius: 16px; /* rounded corners for a friendly look */
+    padding: 2em; /* space inside the card */
+    max-width: 420px; /* slightly wider than before */
+    margin: 3em auto; /* center card horizontally and add vertical space */
+    box-shadow: 0 2px 8px rgba(75,0,110,0.08); /* subtle shadow for depth */
+}
+
+/* Style the main heading */
+h1 {
+    font-size: 2.5em; /* make the heading large */
+    text-align: center; /* center the heading */
+    color: #4B006E; /* dark purple for emphasis */
+}
+
+/* Style the subheading */
+h2 {
+    font-size: 1.7em; /* larger than normal text, smaller than h1 */
+    text-align: center; /* center the subheading */
+    color: magenta; /* bright magenta for contrast */
+}
+
+/* Style the bio paragraph */
+p {
+    text-align: center; /* center the bio text */
+    font-size: 1.2em; /* slightly larger than default text */
+    line-height: 1.6; /* more space between lines for readability */
+}
+
+/* Center the h3 heading inside the card */
+h3 {
+    text-align: center;
+}
+
+/* Style the image inside the card */
+.card img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%; /* ensures image is a perfect circle */
+    display: block;
+    margin: 0 auto 20px auto; /* center and add space below */
+}
+
+/* Style the list of links */
+.card ul {
+    list-style: none; /* remove bullet points */
+    padding: 0;
+    margin-top: 1em;
+    margin-bottom: 0;
+    text-align: center; /* center the list items */
+}
+
+.card ul li {
+    margin: 0.7em 0; /* add vertical spacing between items */
+    display: block; /* stack list items vertically */
+}
+
+.card ul li a {
+    text-decoration: none;
+    color: #4B006E;
+    font-weight: 500;
+    transition: color 0.2s;
+}
+
+.card ul li a:hover {
+    color: magenta;
+}
